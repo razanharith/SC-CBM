@@ -10,6 +10,10 @@ The second role does not follow from the first, and we show this rather than ass
 
 **8,218 trainable parameters | 8.54M frozen | 4.5 ms/image | 223 img/s | no language model**
 
+## Architecture
+
+![SC-CBM Architecture](framework.png)
+
 ## Pipeline
 
 SC-CBM keeps the standard concept-bottleneck factorisation x → c → y and constrains where each concept reads its evidence, then reports that constraint at test time:
